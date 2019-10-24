@@ -8,6 +8,20 @@ namespace Listbox
 {
     class Color
     {
-        public
+        public string Nombre { get; set; }
+        public string Hexadecimal { get; set; }
+        public string RGB { get; set; }
+
+        public Color(string nombre, string hexadecimal, string rgb)
+        {
+            this.Nombre = nombre;
+            this.Hexadecimal = hexadecimal;
+            this.RGB = rgb;
+        }
+
+        public override string ToString()
+        {
+            return this.Nombre + "(" + this.Hexadecimal + ")";
+        }
     }
 }

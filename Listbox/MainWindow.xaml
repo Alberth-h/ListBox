@@ -13,19 +13,20 @@
             <ListBoxItem>Opción 3</ListBoxItem-->
         </ListBox>
         <TextBox Name="txtColor" HorizontalAlignment="Left" Height="23" Margin="230,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button Name="btnNuevoColor" Content="Nuevo Color" HorizontalAlignment="Left" Margin="410,26,0,0" VerticalAlignment="Top" Width="75" Click="BtnNuevoColor_Click"/>
+        <Button Name="btnNuevoColor" Content="Nuevo Color" HorizontalAlignment="Left" Margin="371,26,0,0" VerticalAlignment="Top" Width="75" Click="BtnNuevoColor_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="230,10,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtHex" HorizontalAlignment="Left" Height="23" Margin="230,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtHex" HorizontalAlignment="Left" Height="24" Margin="230,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="230,389,0,0" VerticalAlignment="Top" Width="75" Click="BtnEliminar_Click"/>
-        <TextBox x:Name="txtRGB" HorizontalAlignment="Left" Height="23" Margin="230,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="230,65,0,0" TextWrapping="Wrap" Text="Hexagesimal" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="230,122,0,0" TextWrapping="Wrap" Text="RGB" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtColorAct" HorizontalAlignment="Left" Height="23" Margin="230,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnActualizar" Content="Actualizar Color" HorizontalAlignment="Left" Margin="410,220,0,0" VerticalAlignment="Top" Width="94" Click="BtnActualizar_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="230,204,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtHexAct" HorizontalAlignment="Left" Height="23" Margin="230,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtRGBAct" HorizontalAlignment="Left" Height="23" Margin="230,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="230,259,0,0" TextWrapping="Wrap" Text="Hexagesimal" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRGB" HorizontalAlignment="Left" Height="23" Margin="230,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="230,50,0,0" TextWrapping="Wrap" Text="Hexagesimal" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="230,91,0,0" TextWrapping="Wrap" Text="RGB" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtColorAct" HorizontalAlignment="Left" Height="23" Margin="230,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnActualizar" Content="Actualizar Color" HorizontalAlignment="Left" Margin="371,172,0,0" VerticalAlignment="Top" Width="94" Click="BtnActualizar_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="230,156,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtHexAct" HorizontalAlignment="Left" Height="23" Margin="230,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtRGBAct" HorizontalAlignment="Left" Height="22" Margin="230,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="230,195,0,0" TextWrapping="Wrap" Text="Hexagesimal" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="230,234,0,0" TextWrapping="Wrap" Text="RGB" VerticalAlignment="Top"/>
 
 
     </Grid>
