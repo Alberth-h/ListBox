@@ -69,6 +69,7 @@ namespace Listbox
                 Colores[lstColores.SelectedIndex].Hexadecimal = txtHexAct.Text;
                 Colores[lstColores.SelectedIndex].RGB = txtRGBAct.Text;
             }
+            lstColores.Items.Refresh();
         }
     }
 }
